@@ -13,7 +13,8 @@ LicenseManager.setLicenseKey('YOUR KEY')
 export class AppComponent {
 
   columnDefs = [
-    { field: 'make' },
+    { field: 'make', filter: true },
+
     { field: 'model' },
     { field: 'price' }
   ];
